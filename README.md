@@ -26,7 +26,8 @@ access token..
 
 If it is a **web application** then gclientauth will attempt to run a local
 webserver to get the code itself and create a token so the user don't have to
-do anything themselves.
+do anything themselves. Make sure you set the redirect url to match what you
+pass to the library (e.g. localhost:8080).
 
 
 ## Example Usage:
