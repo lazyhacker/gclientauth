@@ -38,7 +38,7 @@
 //	   func main() {
 //		  scopes := []string{youtube.YoutubeReadonlyScope}
 //		  ctx := oauth2.NoContext
-//		  token, config, err := gclientauth.GetGoogleOauth2Token(ctx, client_secret, accesstoken, scopes, false, "8080")
+//		  token, config, err := gclientauth.GetGoogleOauth2Token(ctx, "client_secret.json", "accesstoken.json", scopes, false, "8080")
 //		  ...
 //		  cfg := config.Client(ctx, token)
 //		  ...
